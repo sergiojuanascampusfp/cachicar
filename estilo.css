@@ -43,3 +43,31 @@
         background-color: white;
     }
        
+
+/* --- hecho por gonzalo --- */
+
+.logo {
+    width: 80px;
+}
+
+.titulo {
+    font-size: 24px;
+    color: black;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+.contacto-texto {
+    text-align: center;
+}
+
