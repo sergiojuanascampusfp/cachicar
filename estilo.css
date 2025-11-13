@@ -1,0 +1,45 @@
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+            header {
+                background-color: blue;
+            }
+
+
+           .div_del_header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+
+            background-color: #f8f8f8;
+            padding: 1rem;
+        }
+
+
+        nav a {
+            color: rgb(22, 18, 18);
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            display: block;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #b9b8b8;
+            border-radius: 4px;
+        }
+
+
+
+
+
+    main {
+        background-color: white;
+    }
+       
