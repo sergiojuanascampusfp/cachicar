@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vender - CACHI CAR</title>
+    <link type="text/css" rel="stylesheet" href="../css/estilo.css">
+    <link type="text/css" rel="stylesheet" href="../css/vender.css">
+    <link rel="icon" href="../img/ChatGPT Image 13 nov 2025, 12_38_45.png" type="Image">
+</head>
+<body>
+
+<header>  
+    <nav>
+        <div class="div_del_header">
+            <a href="../html/index.html">
+                <img src="../img/ChatGPT Image 13 nov 2025, 12_38_45.png" alt="LOGO" width="200">
+            </a>
+
+            <a href="../html/index.html">Inicio</a>
+            <a href="../html/Servicio.html">Servicios</a>
+            <a href="../html/equipo.html">Equipo</a>
+            <a href="../html/contacto.html">Contacto</a>
+        </div>    
+    </nav>
+</header>
+
+<main>
+    <section id="intro">
+        <h1>Vender mi <span>coche</span></h1>
+        <p class="texto-principal">
+            Rellena el siguiente formulario con los datos de tu vehículo y nos pondremos en contacto 
+            para realizar la tasación y tramitar la venta.
+        </p>
+    </section>
+
+    <section id="servicios">
+        <div class="card form-card">
+            <form action="#" method="post" class="form-vender">
+
+                <div class="grupo">
+                    <label for="marca">Marca</label>
+                    <input id="marca" name="marca" type="text" placeholder="Ej. Renault" required>
+                </div>
+
+                <div class="grupo">
+                    <label for="modelo">Modelo</label>
+                    <input id="modelo" name="modelo" type="text" placeholder="Ej. Clio" required>
+                </div>
+
+                <div class="fila">
+                    <div class="grupo">
+                        <label for="anio_modelo">Año del modelo</label>
+                        <input id="anio_modelo" name="anio_modelo" type="number" min="1900" max="2026" placeholder="Ej. 2018" required>
+                    </div>
+
+                    <div class="grupo">
+                        <label for="km">Kilómetros</label>
+                        <input id="km" name="km" type="number" min="0" placeholder="Ej. 85000" required>
+                    </div>
+
+                    <div class="grupo">
+                        <label for="anio_matriculacion">Año de matriculación</label>
+                        <input id="anio_matriculacion" name="anio_matriculacion" type="number" min="1900" max="2026" placeholder="Ej. 2018" required>
+                    </div>
+                </div>
+
+                <div class="fila">
+                    <div class="grupo">
+                        <label for="combustible">Tipo de combustible</label>
+                        <select id="combustible" name="combustible" required>
+                            <option value="" disabled selected>Selecciona</option>
+                            <option>Gasolina</option>
+                            <option>Diésel</option>
+                            <option>Eléctrico</option>
+                            <option>Híbrido</option>
+                        </select>
+                    </div>
+
+                    <div class="grupo">
+                        <label for="tipo_cambio">Tipo de cambio</label>
+                        <select id="tipo_cambio" name="tipo_cambio" required>
+                            <option value="" disabled selected>Selecciona</option>
+                            <option>Manual</option>
+                            <option>Automático</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="grupo">
+                    <label for="contacto">Contacto (email o teléfono)</label>
+                    <input id="contacto" name="contacto" type="text" placeholder="ejemplo@correo.com o 600123456" required>
+                </div>
+
+                <div class="grupo">
+                    <label for="fotos">Fotos del coche (máx. 8)</label>
+                    <input id="fotos" name="fotos[]" type="file" accept="image/*" multiple>
+                    <small></small>
+
+                    <div id="preview"></div>
+                </div>
+
+                <div class="acciones">
+                    <a href="../html/Servicio.html" class="btn-borde">Volver</a>
+                    <button type="submit" class="btn-claro">Enviar solicitud</button>
+                </div>
+
+                <p class="nota">
+                    Al enviar, nos pondremos en contacto para confirmar los datos y ofrecer una tasación sin compromiso.
+                </p>
+
+            </form>
+        </div>
+    </section>
+</main>
+
+</body>
+</html>
