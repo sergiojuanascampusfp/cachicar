@@ -42,32 +42,17 @@
     main {
         background-color: white;
     }
-       
 
-/* --- hecho por gonzalo --- */
+    .galeria-vehiculos {
+    display: grid;         /* Coloca los vehiculos en fila */
+    gap: 15px;             /* Espacio entre ellos */
+    margin: 0 auto;                         /* Centrar la galería */
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+    }
 
-.logo {
-    width: 80px;
-}
+    .vehiculo {
+        max-width: 500px;      /* Para que no se haga demasiado grande */
+        text-align: center;    /* Centrar info */
+        }
 
-.titulo {
-    font-size: 24px;
-    color: black;
-}
-
-table {
-    border: 1px solid black;
-    border-collapse: collapse;
-    margin: 20px auto;
-}
-
-th, td {
-    border: 1px solid black;
-    padding: 5px;
-    text-align: center;
-}
-
-.contacto-texto {
-    text-align: center;
-}
-
+    
