@@ -1,73 +1,92 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
-    <link type="text/css" rel="stylesheet" href="../css/estilo.css">
-    <link rel="icon" href="../img/ChatGPT Image 13 nov 2025, 12_38_45.png" type="Image">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Cachicar</title>
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="icon" href="ChatGPT Image 13 nov 2025, 12_38_45.png" type="image/png">
 </head>
 <body>
 
-  <header>  
+    <header>  
         <nav>
             <div class="div_del_header">
-                <a href="../html/index.html">
-                    <img src="../img/ChatGPT Image 13 nov 2025, 12_38_45.png" alt="lOGO" width="200">
-                </a>
-                
+                <img src="ChatGPT Image 13 nov 2025, 12_38_45.png" alt="LOGO" width="200">
 
-                <a href="../html/index.html">Inicio</a></li>
-                <a href="../html/Servicio.html">Servicios</a>
-                <a href="../html/equipo.html">Equipo</a>
-                <a href="../html/contacto.html">Contacto</a>
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Servicio.html">Servicios</a></li> 
+                    <li><a href="equipo.html">Equipo</a></li>
+                    <li><a href="vehiculos.html">Vehículos</a></li>
+                    <li><a href="vender.html">Vender</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
             </div>    
         </nav>
     </header>
 
     <main>
-
-        <div>
-            <section id="intro" style="text-align:center; padding:60px 20px; background-color:#111; color:white; font-family:Arial, sans-serif;">
-            <h1 style="font-size:3em; letter-spacing:2px;">Bienvenido a <span style="color:#e0e0e0;">CACHI CAR</span></h1>
-            <p style="font-size:1.2em; max-width:800px; margin:20px auto; line-height:1.6;">
-
+        <section id="contacto">
+            <h1>CONTACTO Y HORARIOS</h1>
             
-            <!--Texto de la pagina principal-->
-           
-            <p style="font-size:1.1em; max-width:750px; margin:20px auto; line-height:1.5;">
-           
+            <div class="contacto-info">
+                <h2>Información de contacto</h2>
+                <p><strong>Teléfono:</strong> 673676767</p>
+                <p><strong>Talleres:</strong> Calle Luna 4 (Torrejón de la Calzada) y Calle Serrano 105 (Getafe)</p>
+                <p><strong>Email:</strong> cachicar2025@cachicar.com</p>
+            </div>
 
-            <form>
-                <h2>Contacto Concesionario</h2>
-                
-                <label>Nombre:</label><br>
-                <input type="text" name="nombre"><br><br>
-                
-                <label>Email:</label><br>
-                <input type="email" name="email"><br><br>
-                
-                <label>Teléfono:</label><br>
-                <input type="tel" name="telefono"><br><br>
-                
-                <label>Modelo de coche:</label><br>
-                <select name="modelo">
-                    <option value="sedan">Sedán</option>
-                    <option value="suv">SUV</option>
-                    <option value="deportivo">Deportivo</option>
-                    <option value="electrico">Eléctrico</option>
-                </select><br><br>
-                
-                <label>Comentarios:</label><br>
-                <textarea name="comentarios"></textarea><br><br>
-                
-                <input type="submit" value="Enviar">
-            </form>
-
-            </section>
-
-        </div>
-
+            <div class="horarios">
+                <h2>Horarios de atención</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Día</th>
+                            <th>Apertura</th>
+                            <th>Cierre</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Lunes</td>
+                            <td>09:00</td>
+                            <td>18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Martes</td>
+                            <td>10:00</td>
+                            <td>19:00</td>
+                        </tr>
+                        <tr>
+                            <td>Miércoles</td>
+                            <td>09:30</td>
+                            <td>17:30</td>
+                        </tr>
+                        <tr>
+                            <td>Jueves</td>
+                            <td>10:00</td>
+                            <td>18:30</td>
+                        </tr>
+                        <tr>
+                            <td>Viernes</td>
+                            <td>09:00</td>
+                            <td>16:00</td>
+                        </tr>
+                        <tr class="fin-de-semana">
+                            <td>Sábado</td>
+                            <td>09:00</td>
+                            <td>13:00</td>
+                        </tr>
+                        <tr class="fin-de-semana">
+                            <td>Domingo</td>
+                            <td>09:00</td>
+                            <td>13:00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
     </main>
 
 </body>
